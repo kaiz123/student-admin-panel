@@ -7,6 +7,21 @@ use yii\filters\VerbFilter;
 use yii\filters\AccessControl;
 // use common\models\LoginForm;
 
+// $serviceAccount = ServiceAccount::fromJsonFile('../../test-e3a78-45ae86cc1897.json');
+// $firebase = (new Factory)
+//     ->withServiceAccount($serviceAccount)
+//     ->withDatabaseUri('https://test-e3a78.firebaseio.com/')
+//     ->create();
+
+// $database = $firebase->getDatabase();
+
+// $newPost = $database
+//     ->getReference('blog/posts')
+//     ->push([
+//         'title' => 'Post title',
+//         'body' => 'Post body'
+//     ]);
+
 
 /**
  * Site controller
